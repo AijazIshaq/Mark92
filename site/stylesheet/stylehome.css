@@ -16,7 +16,7 @@ font-size:25px;
 	max-width: 200px;
 	height:150px;
 	margin: 5px 15px 5px 5px;
-	background-image:url('images/Mark92Logo.png');
+	background-image:url('../images/Mark92Logo.png');
 	background-repeat: no-repeat;
 	background-size: contain;
  }
@@ -30,7 +30,7 @@ right:120px;
  #facebook-logo{
     width: 20px;
 	height:30px;
-	background-image:url('images/f-Logo.png');
+	background-image:url('../images/f-Logo.png');
 	background-repeat: no-repeat;
 	background-size: contain;
 	position:absolute;
@@ -40,7 +40,7 @@ right:120px;
  #tweeter-logo{
 	width: 20px;
 	height:30px;
-	background-image:url('images/t-Logo.png');
+	background-image:url('../images/t-Logo.png');
 	background-repeat: no-repeat;
 	background-size: contain;
 	position:absolute;
@@ -50,7 +50,7 @@ right:120px;
  #instgram-logo{
 	width: 20px;
 	height:30px;
-	background-image:url('images/i-Logo.png');
+	background-image:url('../images/i-Logo.png');
 	background-repeat: no-repeat;
 	background-size: contain;
 	position:absolute;
