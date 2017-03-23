@@ -9,7 +9,7 @@
 <meta http-equiv="refresh" content="300">
  <title>Mark92</title>
     <link rel="stylesheet" type="text/css" href="stylesheet/stylehome.css" media="screen">
-	 <link rel="icon" type="image/png" href="../images/Mark92Logo.png">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+	 <link rel="icon" type="image/png" href="images/Mark92Logo.png">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <!-- jQuery library -->
@@ -41,50 +41,52 @@
 </style>
 </head>
 <body>
-<nav>
 <header>
-
 <nav class="navbar navbar-default">
- 
-  <div id="Top" class="container">
-   <a href="index.html">
- <div id="img-logo" alt="Company-logo"></div>
-</a>
-    <div class="navbar-header">
-	<div id="sologan" alt="Company-Sologan"><span>Build a Dream and Dream will Build You</span></div>
-<div id="header-contact"><a href="#contact" onclick="document.getElementById('address').style.display='block'">Contact</a></div>
+<div  id="top" class="container">
+<div class="navbar-header" >
+ <div id="header-contact"><a href="#contact" onclick="document.getElementById('address').style.display='block'">Contact</a></div>
 <div id="facebook-logo" alt="facebook=logo"></div>
 <div id="tweeter-logo"  alt="tweeter-logo"></div>
 <div id="instgram-logo" alt="instagram-logo"></div>
-</div>
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<div id="sologan" class="visible-md  visible-lg" alt="Company-Sologan"><span>Build a Dream and Dream will Build You</span></div>
+<a href="index.html" class="visible-md  visible-lg">
+ <div id="img-logo" alt="Logo image"></div>
+ </a>
+ <div class="navbar-brand visible-sm visible-xs">
+ <a href="index.html"><h1>Mark92</h1></a>
+ </div>
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul id="nav-list" class="nav navbar-nav navbar-right">
-<li><a href="#about" onclick="document.getElementById('about').style.display='block'">About</a></li>
+  </div> 
+  <div class="collapse navbar-collapse" id="myNavbar">
+      <ul id="nav-list" class="nav navbar-nav navbar-center">
+
+<li><a href="#about"      onclick="document.getElementById('about').style.display='block'">About</a></li>
 <li><a href="#addv-tiles" onclick="document.getElementById('addv-tiles').style.display='block'">Advertisment</a></li>
 <li><a href="#desn-tiles" onclick="document.getElementById('desn-tiles').style.display='block'">Design&amp;Production</a></li>
 <li><a href="#deve-tiles" onclick="document.getElementById('deve-tiles').style.display='block'">Development&amp;Hosting</a></li>
 <li><a href="#even-tiles" onclick="document.getElementById('even-tiles').style.display='block'">Events Managment</a></li> 
+       
       </ul>
-      <!--ul class="nav navbar-nav navbar-right">
+      <ul id="right-nav" class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul-->
+      </ul>
     </div>
-  </div>
-</nav>
 </div>
-</header>
 </nav>
+</header>
+
+<!--end of Navigation-->
 <div class="container">
  <div class="jumbotron text-center">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
+  <!-- Indicators --> 
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -123,7 +125,7 @@
 </div>
 </div>
 
-<!----Starting of about us division--->
+<!---Starting of about us division-->
 <div id="about">
 <a href="index.html">
  <div id="img-logo" alt="Company-logo"></div>
@@ -302,10 +304,10 @@ my daughter who graduated as a Visual graphic designer pushed me to restart.</p>
  <footer>
 <div id="footer-detail">
 <div id="footer-menu">
-<ul>
+<ul id="footer-list">
 <li><a href="#">Online Services</a></li>
 <li><a href="#">Policies</a></li>
-<li><a href="#">Terms&ampCondition</a></li>
+<li><a href="#">Terms&amp;Condition</a></li>
 <li><a href="#">FAQs</a></li>
 <!--li><a href="#">Contact</a></li-->
 </ul>
@@ -314,7 +316,7 @@ my daughter who graduated as a Visual graphic designer pushed me to restart.</p>
 <div id="footer-logo"></div>
 </div>
 </footer> 
-<!-------End of Container------->
+<!---End of Container-->
 </div>
 </body>
 </html>
