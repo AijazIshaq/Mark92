@@ -42,7 +42,8 @@ right:120px;
  #facebook-logo{
     width: 20px;
 	height:30px;
-	background-image:url('../images/f-Logo.png');
+	background-image:url('../images/i-Logo.png');
+	/*background-image:url('../images/f-Logo.png');*/
 	background-repeat: no-repeat;
 	background-size: contain;
 	position:absolute;
